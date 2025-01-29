@@ -27,7 +27,8 @@
     "annotate"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "*.d.ts"
   ],
   "devDependencies": {
     "@babel/cli": "^7.21.5",
