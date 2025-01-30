@@ -10,7 +10,7 @@ package-lock.json
 .idea
 
 # production
-dist
+# dist
 # lib
 build
 demo-dist
