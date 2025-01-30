@@ -9,7 +9,7 @@
   "author": "Scaleflex",
   "homepage": "https://github.com/scaleflex/filerobot-image-editor/#readme",
   "main": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "./packages/react-filerobot-image-editor/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/scaleflex/filerobot-image-editor"

@@ -60,7 +60,7 @@ export default defineConfig(({ mode }) => {
           }
         : {
             lib: {
-              entry: 'index.js',
+              entry: './packages/react-filerobot-image-editor/src/index.js',
               fileName: () => 'index.js',
               name: 'FilerobotImageEditor',
               formats: ['es'],
