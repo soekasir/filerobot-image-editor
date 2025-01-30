@@ -60,12 +60,12 @@ export default defineConfig(({ mode }) => {
           }
         : {
             lib: {
-              entry: './packages/filerobot-image-editor/src/index.js',
-              fileName: () => 'filerobot-image-editor.min.js',
+              entry: 'index.js',
+              fileName: () => 'index.js',
               name: 'FilerobotImageEditor',
-              formats: ['umd'],
+              formats: ['es'],
             },
-            minify: 'terser',
+            minify: "esbuild",
             terserOptions: {
               format: {
                 comments: false,
