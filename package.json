@@ -8,8 +8,8 @@
   ],
   "author": "Scaleflex",
   "homepage": "https://github.com/scaleflex/filerobot-image-editor/#readme",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/scaleflex/filerobot-image-editor"
@@ -28,7 +28,8 @@
   ],
   "files": [
     "index.js",
-    "*.d.ts"
+    "*.d.ts",
+    "packages"
   ],
   "devDependencies": {
     "@babel/cli": "^7.21.5",
@@ -75,6 +76,7 @@
     "dev": "vite",
     "dev:force-prebundle-deps": "vite --force",
     "update": "lernaupdate",
+    "build":"yarn build",
     "set-prod-env": "cross-env BABEL_ENV=production NODE_ENV=production",
     "build:js-bundle": "yarn set-prod-env vite build",
     "publish:js-bundle": "yarn build:js-bundle && dotenv -- node bin/deploy-js-bundle-to-filerobot.js",
