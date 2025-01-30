@@ -29,7 +29,8 @@
   "files": [
     "index.js",
     "*.d.ts",
-    "packages"
+    "packages",
+    "dist"
   ],
   "devDependencies": {
     "@babel/cli": "^7.21.5",
